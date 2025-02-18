@@ -2,6 +2,8 @@ def fizzbuzz(number):
     current_number = 1
     answer = []
 
+    print("meow")
+
     for current_number in range(1, number + 1):
         if current_number % 3 == 0:
             answer.append("Fizz")
